@@ -144,6 +144,11 @@ jobs:
         cat > web/dist/deploy.sh << 'EOF'
         #!/bin/bash
         
+        # Set up Node.js environment
+        export PATH="$HOME/.nodenv/bin:$PATH"
+        eval "$(nodenv init -)"
+        nodenv global 20
+        
         # Install production dependencies
         npm install --production
         
@@ -170,9 +175,14 @@ jobs:
         password: ${{ secrets.DEPLOY_PASSWORD }}
         port: ${{ secrets.DEPLOY_PORT || 22 }}
         script: |
-          # Create deployment directory
-          mkdir -p /home/simplyki.net_gd8li0ydfl5/htdocs
-          cd /home/simplyki.net_gd8li0ydfl5/htdocs
+          # Set up Node.js environment
+          export PATH="$HOME/.nodenv/bin:$PATH"
+          eval "$(nodenv init -)"
+          nodenv global 20
+          
+          # Create deployment directory in web root
+          mkdir -p /var/www/vhosts/simplyki.net/httpdocs
+          cd /var/www/vhosts/simplyki.net/httpdocs
           
           # Backup current version
           if [ -d "current" ]; then
@@ -191,7 +201,7 @@ jobs:
         password: ${{ secrets.DEPLOY_PASSWORD }}
         port: ${{ secrets.DEPLOY_PORT || 22 }}
         source: "web/dist/*"
-        target: "/home/simplyki.net_gd8li0ydfl5/htdocs/current/"
+        target: "/var/www/vhosts/simplyki.net/httpdocs/current/"
         strip_components: 2
     
     - name: 🔄 Start application
@@ -202,7 +212,12 @@ jobs:
         password: ${{ secrets.DEPLOY_PASSWORD }}
         port: ${{ secrets.DEPLOY_PORT || 22 }}
         script: |
-          cd /home/simplyki.net_gd8li0ydfl5/htdocs/current
+          # Set up Node.js environment
+          export PATH="$HOME/.nodenv/bin:$PATH"
+          eval "$(nodenv init -)"
+          nodenv global 20
+          
+          cd /var/www/vhosts/simplyki.net/httpdocs/current
           ./deploy.sh
     
     - name: 🏥 Health check
