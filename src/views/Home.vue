@@ -20,13 +20,13 @@
           </div>
           
           <!-- Main Headline -->
-          <h1 class="text-hero text-gradient mb-6">
+          <h1 class="text-hero text-gray-800 mb-6 font-bold">
             AI Development Meta-Framework
           </h1>
           
           <!-- Subtext -->
           <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Unified platform for <strong class="text-brand">cost-optimized</strong> AI-powered software development. 
+            Unified platform for <strong class="text-blue-600">cost-optimized</strong> AI-powered software development. 
             Simple tools, powerful results.
           </p>
           
@@ -74,8 +74,8 @@
     <section class="py-20 bg-surface">
       <div class="container mx-auto px-6 lg:px-8">
         <div class="text-center mb-16">
-          <h2 class="text-title text-primary mb-4">Why SimplyKI?</h2>
-          <p class="text-subtitle text-secondary max-w-2xl mx-auto">
+          <h2 class="text-title text-gray-800 mb-4">Why SimplyKI?</h2>
+          <p class="text-subtitle text-gray-600 max-w-2xl mx-auto">
             Built for developers who want powerful AI tools without complexity or cost explosions.
           </p>
         </div>
@@ -84,8 +84,8 @@
           <div v-for="feature in features" :key="feature.title" 
                class="card text-center group">
             <div class="text-4xl mb-4">{{ feature.icon }}</div>
-            <h3 class="text-xl font-semibold text-primary mb-3">{{ feature.title }}</h3>
-            <p class="text-secondary leading-relaxed">{{ feature.description }}</p>
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">{{ feature.title }}</h3>
+            <p class="text-gray-600 leading-relaxed">{{ feature.description }}</p>
           </div>
         </div>
       </div>
