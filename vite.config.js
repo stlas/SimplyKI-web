@@ -82,15 +82,7 @@ export default defineConfig({
   
   // CSS preprocessing
   css: {
-    postcss: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-        require('cssnano')({
-          preset: 'default'
-        })
-      ]
-    },
+    postcss: './postcss.config.js',
     preprocessorOptions: {
       scss: {
         additionalData: `@import "@styles/colors.css";`
