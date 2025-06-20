@@ -12,11 +12,6 @@ import { useConfigStore } from './stores/config'
 
 // Import Views
 import Home from './views/Home.vue'
-import Dashboard from './views/Dashboard.vue'
-import Login from './views/Login.vue'
-import Register from './views/Register.vue'
-import ToolView from './views/ToolView.vue'
-import AiCollabInterface from './components/tools/AiCollabInterface.vue'
 
 // Router Configuration
 const routes = [
@@ -25,37 +20,6 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: { requiresAuth: false }
-  },
-  {
-    path: '/login',
-    name: 'Login', 
-    component: Login,
-    meta: { requiresAuth: false }
-  },
-  {
-    path: '/register',
-    name: 'Register',
-    component: Register,
-    meta: { requiresAuth: false }
-  },
-  {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: Dashboard,
-    meta: { requiresAuth: true }
-  },
-  {
-    path: '/tools/:toolName',
-    name: 'Tool',
-    component: ToolView,
-    meta: { requiresAuth: true },
-    props: true
-  },
-  {
-    path: '/tools/ai-collab',
-    name: 'AiCollab',
-    component: AiCollabInterface,
-    meta: { requiresAuth: true }
   }
 ]
 
@@ -66,13 +30,7 @@ const router = createRouter({
 
 // Navigation Guards
 router.beforeEach((to, from, next) => {
-  const authStore = useAuthStore()
-  
-  if (to.meta.requiresAuth && !authStore.isAuthenticated) {
-    next('/login')
-  } else {
-    next()
-  }
+  next() // Simplified for now
 })
 
 // Pinia Store
