@@ -45,11 +45,7 @@ export default defineConfig({
         manualChunks: {
           // Vendor chunks
           'vendor-vue': ['vue', 'vue-router', 'pinia'],
-          'vendor-ui': ['lucide-vue'],
-          
-          // App chunks
-          'app-stores': ['./src/stores/auth.js', './src/stores/tools.js', './src/stores/config.js'],
-          'app-components': ['./src/components/common', './src/components/ui']
+          'vendor-ui': ['lucide-vue-next']
         },
         
         // Asset naming
