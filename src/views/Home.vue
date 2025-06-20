@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- Hero Section -->
-    <section class="hero-section relative overflow-hidden bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 min-h-screen flex items-center">
+    <section class="hero-section relative overflow-hidden bg-white min-h-screen flex items-center">
       <!-- Animated background blocks -->
       <div class="absolute inset-0 overflow-hidden">
         <div class="floating-blocks">
@@ -25,7 +25,7 @@
           </h1>
           
           <!-- Subtext -->
-          <p class="text-xl md:text-2xl text-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
             Unified platform for <strong class="text-brand">cost-optimized</strong> AI-powered software development. 
             Simple tools, powerful results.
           </p>
@@ -399,12 +399,11 @@ cd web && npm install && npm run dev
 
 <style scoped>
 .feature-pill {
-  @apply inline-flex items-center px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm text-sm font-medium text-gray-700 border border-gray-200;
+  @apply inline-flex items-center px-4 py-2 rounded-full bg-gray-100 text-sm font-medium text-gray-800 border border-gray-300;
 }
 
 .hero-section {
-  background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple));
-  background: var(--gradient-primary);
+  background: white;
 }
 
 .floating-blocks {
