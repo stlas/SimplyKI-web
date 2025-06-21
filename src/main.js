@@ -5,6 +5,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import './style.css'
 
+// Import I18n
+import i18n from './i18n.js'
+
 // Import Stores
 import { useAuthStore } from './stores/auth'
 import { useToolsStore } from './stores/tools'
@@ -41,6 +44,7 @@ const app = createApp(App)
 
 app.use(pinia)
 app.use(router)
+app.use(i18n)
 
 // Global error handler
 app.config.errorHandler = (err, vm, info) => {

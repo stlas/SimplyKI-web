@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "tools": "Tools", 
+    "settings": "Einstellungen",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "title": "KI-Entwicklungs Meta-Framework",
+    "subtitle": "Einheitliche Plattform für <strong>kostenoptimierte</strong> KI-gestützte Softwareentwicklung. Einfache Tools, kraftvolle Ergebnisse.",
+    "getStarted": "🚀 Loslegen",
+    "viewGithub": "Auf GitHub ansehen", 
+    "liveStatus": "Live-Plattform verfügbar auf simplyki.net"
+  },
+  "features": {
+    "title": "Warum SimplyKI?",
+    "subtitle": "Entwickelt für Entwickler, die leistungsstarke KI-Tools ohne Komplexität oder Kostenexplosion wollen.",
+    "webPlatform": "🌐 Web-Plattform",
+    "costOptimization": "💰 Kostenoptimierung",
+    "pluginSystem": "🔧 Plugin-System", 
+    "easyIntegration": "🚀 Einfache Integration",
+    "items": {
+      "unifiedPlatform": {
+        "title": "Einheitliche Plattform",
+        "description": "Eine einzige Web-Oberfläche für alle Ihre KI-Entwicklungstools. Kein Wechsel zwischen verschiedenen Anwendungen mehr."
+      },
+      "costOptimization": {
+        "title": "Kostenoptimierung",
+        "description": "Intelligente Modellauswahl und Template-Wiederverwendung können KI-Entwicklungskosten um bis zu 70% reduzieren."
+      },
+      "pluginSystem": {
+        "title": "Plugin-System", 
+        "description": "Modulare Architektur ermöglicht einfache Integration neuer KI-Tools. Einmal entwickeln, überall integrieren."
+      },
+      "easyIntegration": {
+        "title": "Einfache Integration",
+        "description": "Git-Submodule und standardisierte APIs machen es einfach, SimplyKI zu bestehenden Projekten hinzuzufügen."
+      },
+      "monitoring": {
+        "title": "Monitoring & Analytics",
+        "description": "Echtzeit-Tracking von Kosten, Performance und Nutzung bei all Ihren KI-Entwicklungsaktivitäten."
+      },
+      "productionReady": {
+        "title": "Produktionsbereit",
+        "description": "Gebaut mit Enterprise-Sicherheit, Skalierbarkeit und Zuverlässigkeit von Tag eins an."
+      }
+    }
+  },
+  "architecture": {
+    "title": "Architektur-Übersicht", 
+    "subtitle": "Drei-Schichten-Architektur für maximale Flexibilität und Skalierbarkeit.",
+    "webFrontend": {
+      "title": "Web-Frontend",
+      "description": "Browser-basierte Oberfläche mit Vue.js für moderne, responsive Benutzererfahrung.",
+      "features": ["Vue.js 3 SPA", "Echtzeit-Dashboard", "Mobile Responsive", "Progressive Web App"]
+    },
+    "toolEcosystem": {
+      "title": "Tool-Ökosystem",
+      "description": "Sammlung spezialisierter KI-Entwicklungstools, jeweils für spezifische Aufgaben optimiert.",
+      "features": ["ai-collab", "cost-optimizer", "prompt-library", "Plugin-Framework"]
+    },
+    "coreInfrastructure": {
+      "title": "Kern-Infrastruktur", 
+      "description": "Gemeinsame Grundlage mit Authentifizierung, Konfiguration und Plugin-Management.",
+      "features": ["Benutzerverwaltung", "Plugin-System", "Konfiguration", "API-Gateway"]
+    }
+  },
+  "tools": {
+    "title": "Tool-Ökosystem",
+    "subtitle": "Integrierte KI-Entwicklungstools, jeweils für spezifische Aufgaben optimiert.",
+    "status": {
+      "active": "✅ Aktiv",
+      "development": "🔄 Entwicklung",
+      "planned": "📋 Geplant"
+    }
+  },
+  "quickStart": {
+    "title": "Schnellstart",
+    "subtitle": "SimplyKI in wenigen Minuten mit unserem einfachen Setup-Prozess zum Laufen bringen.",
+    "terminal": "Terminal", 
+    "copy": "📋 Kopieren",
+    "copied": "✅ Kopiert!",
+    "steps": {
+      "instantSetup": {
+        "title": "Sofort-Setup",
+        "description": "Ein-Befehl-Installation"
+      },
+      "autoConfiguration": {
+        "title": "Auto-Konfiguration",
+        "description": "Null-Konfig Plugin-System"
+      },
+      "readyToUse": {
+        "title": "Sofort einsatzbereit",
+        "description": "Sofort mit dem Entwickeln beginnen"
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, mit KI zu entwickeln?",
+    "subtitle": "Schließen Sie sich Entwicklern an, die bereits smarter mit SimplyKIs kostenoptimierten KI-Tools entwickeln.",
+    "startBuilding": "Kostenlos entwickeln",
+    "readDocs": "Dokumentation lesen"
+  },
+  "footer": {
+    "builtWith": "Entwickelt mit 🤖 ai-collabs intelligenter Entwicklungsunterstützung"
+  },
+  "language": {
+    "switch": "Sprache wechseln", 
+    "english": "English",
+    "german": "Deutsch"
+  }
+}

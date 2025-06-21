@@ -15,6 +15,8 @@
           
           <!-- Navigation Links -->
           <div class="flex items-center space-x-4">
+            <!-- Language Switcher -->
+            <LanguageSwitcher />
             <template v-if="!authStore.isAuthenticated">
               <router-link 
                 to="/login" 
@@ -140,9 +142,13 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useAuthStore } from './stores/auth'
 import { useConfigStore } from './stores/config'
+import LanguageSwitcher from './components/LanguageSwitcher.vue'
 
 export default {
   name: 'App',
+  components: {
+    LanguageSwitcher
+  },
   setup() {
     const authStore = useAuthStore()
     const configStore = useConfigStore()

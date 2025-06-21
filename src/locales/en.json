@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard", 
+    "tools": "Tools",
+    "settings": "Settings",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "AI Development Meta-Framework",
+    "subtitle": "Unified platform for <strong>cost-optimized</strong> AI-powered software development. Simple tools, powerful results.",
+    "getStarted": "🚀 Get Started",
+    "viewGithub": "View on GitHub",
+    "liveStatus": "Live Platform Available on simplyki.net"
+  },
+  "features": {
+    "title": "Why SimplyKI?",
+    "subtitle": "Built for developers who want powerful AI tools without complexity or cost explosions.",
+    "webPlatform": "🌐 Web Platform",
+    "costOptimization": "💰 Cost Optimization", 
+    "pluginSystem": "🔧 Plugin System",
+    "easyIntegration": "🚀 Easy Integration",
+    "items": {
+      "unifiedPlatform": {
+        "title": "Unified Platform",
+        "description": "Single web interface for all your AI development tools. No more context switching between different applications."
+      },
+      "costOptimization": {
+        "title": "Cost Optimization", 
+        "description": "Intelligent model selection and template reuse can reduce AI development costs by up to 70%."
+      },
+      "pluginSystem": {
+        "title": "Plugin System",
+        "description": "Modular architecture allows easy integration of new AI tools. Build once, integrate everywhere."
+      },
+      "easyIntegration": {
+        "title": "Easy Integration",
+        "description": "Git submodules and standardized APIs make it simple to add SimplyKI to existing projects."
+      },
+      "monitoring": {
+        "title": "Monitoring & Analytics",
+        "description": "Real-time tracking of costs, performance, and usage across all your AI development activities."
+      },
+      "productionReady": {
+        "title": "Production Ready", 
+        "description": "Built with enterprise-grade security, scalability, and reliability from day one."
+      }
+    }
+  },
+  "architecture": {
+    "title": "Architecture Overview",
+    "subtitle": "Three-layer architecture for maximum flexibility and scalability.",
+    "webFrontend": {
+      "title": "Web Frontend",
+      "description": "Browser-based interface built with Vue.js for modern, responsive user experience.",
+      "features": ["Vue.js 3 SPA", "Real-time Dashboard", "Mobile Responsive", "Progressive Web App"]
+    },
+    "toolEcosystem": {
+      "title": "Tool Ecosystem", 
+      "description": "Collection of specialized AI development tools, each optimized for specific tasks.",
+      "features": ["ai-collab", "cost-optimizer", "prompt-library", "Plugin Framework"]
+    },
+    "coreInfrastructure": {
+      "title": "Core Infrastructure",
+      "description": "Shared foundation providing authentication, configuration, and plugin management.", 
+      "features": ["User Management", "Plugin System", "Configuration", "API Gateway"]
+    }
+  },
+  "tools": {
+    "title": "Tool Ecosystem",
+    "subtitle": "Integrated AI development tools, each optimized for specific tasks.",
+    "status": {
+      "active": "✅ Active",
+      "development": "🔄 Development", 
+      "planned": "📋 Planned"
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "subtitle": "Get SimplyKI running in minutes with our simple setup process.",
+    "terminal": "Terminal",
+    "copy": "📋 Copy",
+    "copied": "✅ Copied!",
+    "steps": {
+      "instantSetup": {
+        "title": "Instant Setup",
+        "description": "One command installation"
+      },
+      "autoConfiguration": {
+        "title": "Auto Configuration", 
+        "description": "Zero-config plugin system"
+      },
+      "readyToUse": {
+        "title": "Ready to Use",
+        "description": "Start building immediately"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Build with AI?",
+    "subtitle": "Join developers who are already building smarter with SimplyKI's cost-optimized AI tools.",
+    "startBuilding": "Start Building Free",
+    "readDocs": "Read Documentation"
+  },
+  "footer": {
+    "builtWith": "Built with 🤖 ai-collab's intelligent development assistance"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "german": "Deutsch"
+  }
+}
